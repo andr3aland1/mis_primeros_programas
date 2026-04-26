@@ -1,3 +1,5 @@
+#TERMINAR ACTIVIDAD
+
 dias = 0
 suma = 0
 max_produccion = 0
