@@ -1,0 +1,5 @@
+numero = float(input("Ingrese un numero: "))
+if numero > 10:
+    print(f"El número es mayor que 10\nSaludos!!!")
+else:
+    print(f"El número es menor o igual a 10\nSaludos!!!")

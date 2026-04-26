@@ -1,0 +1,26 @@
+""" 1 = Domingo 
+    2 = Lunes 
+    3 = Martes
+    4 = Miércoles 
+    5 = Jueves 
+    6 = Viernes 
+    7 = Sábado """
+
+dia = int(input("Ingrese el número del día de la semana del 1 al 7: "))
+
+if dia == 1:
+    print("Domingo")
+elif dia == 2:
+    print("Lunes")
+elif dia == 3:
+    print("Martes")
+elif dia == 4:
+    print("Miércoles")
+elif dia == 5:
+    print("Jueves")
+elif dia == 6:
+    print("Viernes")
+elif dia == 7:
+    print("Sábado")
+else:
+    print("El número ingresado es inválido.")

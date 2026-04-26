@@ -1,0 +1,13 @@
+numero = int(input("Ingrese un número del 0 al 255: "))
+binario = ""
+ceros = False
+if numero == 0:
+    binario = "0"
+for x in range(8):
+    if numero >= 2**(7-x):
+        binario = binario + "1"
+        numero = numero - 2**(7-x) 
+        ceros = True
+    elif ceros: 
+            binario = binario + "0"
+print(f"El binario del número {numero} es: {binario}")
