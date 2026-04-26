@@ -14,7 +14,7 @@ while(produccion)
     if produccion > max_produccion:
         max_produccion = produccion
         dia_max = dias
-    produccion = int(input"ingrese la cantidad producida de hoy: )
+    produccion = int(input("ingrese la cantidad producida de hoy: "))
 promedio = suma / dias
 print(f"Se trabajaron {dias} dias.\n el promedio de produccion fue {promedio} unidades.\n\ fue de promedio{promedio} unidades.\
       el dia de mayor produccion fue {dia_max}")
