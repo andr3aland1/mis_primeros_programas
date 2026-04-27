@@ -11,7 +11,7 @@ Codifica el programa para dar solución a lo solicitado por el cliente. """
 precipitaciones = 0
 
 for i in range (1,8)
-    precipitaciones = int(input("Ingrese la cantidad en mililitros de precipitaciones: ")
+    precipitaciones = int(input("Ingrese la cantidad en mililitros de precipitaciones: "))
     acumulador = precipitaciones + precipitaciones
     if i == 1
     maximo = numero
