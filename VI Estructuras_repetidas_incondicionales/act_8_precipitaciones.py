@@ -8,9 +8,17 @@ A modo ilustrativo, un reporte generado por el programa debería verse, luego de
 Ten en cuenta que la numeración de los días de la semana comienza con el 1 para el día domingo. 
 Codifica el programa para dar solución a lo solicitado por el cliente. """
 
-
-precipitaciones = int(input("Ingrese la cantidad en mililitros de precipitaciones: ")
+precipitaciones = 0
 
 for i in range (1,8)
+    precipitaciones = int(input("Ingrese la cantidad en mililitros de precipitaciones: ")
+    acumulador = precipitaciones + precipitaciones
     if i == 1
-    
+    maximo = numero
+    posicion = i
+    if maximo < numero
+    maximo = numero
+    posicion = i
+elif posicion == i
+promedio = acumulador / 7
+print (f"El promedio de lluvias fue ")
