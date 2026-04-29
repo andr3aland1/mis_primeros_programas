@@ -10,3 +10,10 @@ Si alguno de los días caminó más de 30 cuadras, mostrar el mensaje:
 Si el promedio es menor a 10 y ningún día caminó más de 20 cuadras, mostrar:
  "El perro necesita caminar más"’ """
 
+dias = int(input("Ingrese la cantidad de días que camino con su perro: ")
+
+for i (1, dias)
+    if i == 1
+    max
+
+cuadras = 
