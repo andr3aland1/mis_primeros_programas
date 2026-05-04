@@ -1,6 +1,11 @@
+"""Crea un script que le solicite al usuario ingresar notas de parciales por teclado, hasta que el usuario ingrese el valor -1, 
+indicando que ya no hay más notas para cargar. Una vez ingresadas las notas, el programa debe informar la nota promedio 
+(tenga cuidado de no incluir al -1 dentro del promedio). """
+
 contador = 0
-nota = 0
-suma = float(input("Para salir escriba -1 sino ingrese la nota: "))
+suma = 0
+
+nota = float(input("Para salir escriba -1 sino ingrese la nota: "))
 
 while nota != -1:
     suma = suma + nota
