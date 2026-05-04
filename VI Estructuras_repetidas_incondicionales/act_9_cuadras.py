@@ -10,7 +10,6 @@ Si alguno de los días caminó más de 30 cuadras, mostrar el mensaje:
 Si el promedio es menor a 10 y ningún día caminó más de 20 cuadras, mostrar:
  "El perro necesita caminar más" """
 
-
 total_cuadras = 0
 dia_camino_mas = 0
 maximo_cuadras = 0
@@ -19,14 +18,18 @@ posicion_max = 0
 dias = int(input("Ingrese la cantidad de días que camino con su perro: "))
 
 for i in range (1, dias+1):
-    cuadras = int(input(f"Ingrese la cantidad de cuadras que camino el día {i}: "))
+    cuadras = int(input(f"Ingrese la cantidad de cuadras que caminó el día {i}: "))
     total_cuadras = total_cuadras + cuadras
+
     if maximo_cuadras < cuadras:
         maximo_cuadras = cuadras
         posicion_max = i 
+
 promedio = total_cuadras / dias
+
 print(f"El perro caminó {total_cuadras} cuadras con un promedio de {promedio:.2f} cuadras caminadas por día.")
-print(f"El {posicion_max} fue el día que mas camino.")
+print(f"El {posicion_max}º día fue el día que más camino.")
+
 if promedio < 10 and maximo_cuadras < 20:
     print("El perro necesita caminar más")
 elif maximo_cuadras > 30:
