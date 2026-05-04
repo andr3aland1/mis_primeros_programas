@@ -1,8 +1,11 @@
-parar = "parar"
-palabra = input("Ingrese una palabra: ")
-while palabra.lower != parar: # .lower para pasar a minúscula
-    print(palabra)
-    palabra = input("Ingrese una palabra: ")
-print("--- TERMINADO ---")
+""" Crea un script que le pida al usuario ingresar palabras, una a una, hasta que el usuario ingrese la palabra “parar”. 
+A medida que se van ingresando las palabras, el programa simplemente debe mostrarlas en pantalla. 
+Al detectar la palabra para detenerse, debe mostrar el mensaje “--- TERMINADO ---” """
 
-#revisar cambios
+parar = "parar"
+palabra = ""
+
+while palabra.lower() != parar:
+    palabra = input("Ingrese una palabra: ")
+    print(palabra)
+print("--- TERMINADO ---")
