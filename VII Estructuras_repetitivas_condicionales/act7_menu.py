@@ -21,6 +21,7 @@ de leer la información presentada, simplemente utilizando la función input(PRE
 import os
 
 opcion = 0
+temperatura = 15
 
 while opcion != 4:
 
@@ -30,13 +31,14 @@ while opcion != 4:
     
     if opcion == 1:
         print("Hola! Bienvenido!")
-        input("Presione enter para continuar: ")
+
     elif opcion == 2:
-        print("Hoy hace una temperatura de 15 ºC")
-        input("Presione enter para continuar: ")
+        print(f"Hoy hace una temperatura de {temperatura} ºC")
+    
     elif opcion == 3:
         print("La materia se llama: Introcucción a la programación")
-        input("Presione enter para continuar: ")
+    
+    input("Presione enter para continuar: ")
     os.system('cls')
 
 if opcion == 4:
