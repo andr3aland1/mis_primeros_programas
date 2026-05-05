@@ -8,7 +8,7 @@ numero = input("Ingrese un número entre 1 y 100: ")
 
 while not numero.isdigit() or int(numero) < 1 or int(numero) > 100:
     
-    if not numero.isdigit():
+    if  numero.isalpha():
         print("El dato ingresado no es numérico.")
     else:
         print("El número ingresado está fuera del rango permitido.")
