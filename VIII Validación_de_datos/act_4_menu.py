@@ -12,26 +12,25 @@ Seleccionar una opción [1-4]:
 - Cuando el usuario ingrese la opción 4, el programa debe terminar, mostrando el mensaje “Hasta la próxima!”. 
 - Si el usuario ingresa una opción inválida, se muestra el mensaje “Opción inválida.”. """
 
-temperatura = 15
-opcion = 0 
+opcion = ""
 
-while opcion != 4:
+while opcion != "4":
 
-    print(f"********* MI PROGRAMA *********\n1. Saludar.\n2. Informar temperatura.\n3. Mostrar nombre de materia.\n4. Salir.")
-   
-    opcion = int(input("Ingrese una opción: "))
+    print("********** MI PROGRAMA **********\n1. Saludar.\n2. Informar temperatura.\n3. Mostrar nombre de materia.\n4. Salir.")
 
-    if opcion == 1:
-        print("Hola!")
+    opcion = input("Ingrese una opción: ")
 
-    elif opcion == 2:
-        print (f"La temperatura es: {temperatura} ºC")
+    if opcion == "1":
+        print("Hola, bienvenido a mi programa interactivo!")
 
-    elif opcion == 3:
-        print (f"Introducción a la programación")
+    elif opcion == "2":
+        print("Hay una sensación térmica de 20 grados Celsius.")
 
-    elif opcion == 4:
-        print("Adios!")
+    elif opcion == "3":
+        print("Estás en la materia Introducción a la Programación!")
+
+    elif opcion == "4":
+        print("Hasta la próxima!")
 
     else:
         print("Opción inválida.")
