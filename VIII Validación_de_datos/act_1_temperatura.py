@@ -4,10 +4,12 @@ y el rango válido está entre -18 y 50. El programa debe permitir ingresar el d
 hasta que el usuario provea un dato válido. Procure informar al usuario cuando su dato es inválido, 
 y cuáles son los valores aceptados. """ 
 
+import os
 
 temperatura = int(input("Ingrese la temperatura en grados Celsius: "))  
     
 while temperatura <-18 or temperatura > 50:
     temperatura = int(input("El valor es erroneo. Ingrese una temperatura entre -18 y 50 ºC"))
+    os.system('cls')
 
 print("La temperatura", temperatura, "es un dato válido")

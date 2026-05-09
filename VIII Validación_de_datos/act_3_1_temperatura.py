@@ -7,6 +7,7 @@ y valide que la entrada es correcta, teniendo en cuenta que la temperatura debe 
 y el rango válido está entre -18 y 50. El programa debe permitir ingresar el dato cuantas veces sea necesario, 
 hasta que el usuario provea un dato válido. Procure informar al usuario cuando su dato es inválido, 
 y cuáles son los valores aceptados. """ 
+import os
 
 intentos = 0
 
@@ -17,6 +18,8 @@ while (temperatura < -18 or temperatura > 50) and intentos < 10:
     intentos += 1
 
     temperatura = int(input("Dato inválido. Ingrese una temperatura entre -18 y 50 ºC: "))
+
+    os.system('cls')
 
 if intentos == 10:
 
