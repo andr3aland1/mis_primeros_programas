@@ -16,28 +16,28 @@ import os
 
 opcion = ""
 
+
 while opcion != "4":
-
-    input("********** MI PROGRAMA **********\n1. Saludar.\n2. Informar temperatura.\n3. Mostrar nombre de materia.\n4. Salir.\nIngrese una opción: ")
-        
+    
+    print("********** MI PROGRAMA **********\n1. Saludar.\n2. Informar temperatura.\n3. Mostrar nombre de materia.\n4. Salir.\n")
+   
+    opcion = input("Ingrese una opción: ")
+   
     if opcion == "1":
-        
-        print("Hola, bienvenido a mi programa interactivo!")
-
+        print(f"\nHola, bienvenido a mi programa interactivo!\n")
+    
     elif opcion == "2":
-        
-        print("Hay una sensación térmica de 20 grados Celsius.")
+        print(f"\nHay una sensación térmica de 20 grados Celsius.\n")
 
     elif opcion == "3":
-        print("Estás en la materia Introducción a la Programación!")
+        print(f"\nEstás en la materia Introducción a la Programación!\n")
 
     elif opcion == "4":
-        print("Hasta la próxima!")
+        print("\nHasta la próxima!")
 
     else:
-        print("Opción inválida.")
-
-input("Presione cualquier tecla para continuar:  ")
-     
+        print(f"\nOpción inválida.\n")
     
-    
+    if opcion != "4":
+        input(f"Presione una tecla para volver al menu: ")
+        os.system('cls')
