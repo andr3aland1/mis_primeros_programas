@@ -15,6 +15,8 @@ el tipo del dato ingresado por teclado.
 intento fallido.
 - La opción 2. Salir finaliza el programa. """
 
+import os
+
 opcion = "1"
 color = ""
 
@@ -28,6 +30,7 @@ while opcion != "2":
 
         opcion = input("Elija una opción: ")
 
+        os.system('cls')
 
     elif color == "rojo" or color == "verde" or color == "azul":
         opcion = "2"
