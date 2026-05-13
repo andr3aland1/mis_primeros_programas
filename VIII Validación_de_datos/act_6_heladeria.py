@@ -49,7 +49,7 @@ while edad != 0:
 
 if contador_clientes > 0:
 
-    promedio = (contador_recomienda * 100) / contador_clientes
+    promedio = contador_recomienda / contador_clientes
 
     print(f"Cantidad de clientes que recomendaron la heladería: {contador_recomienda}")
 
