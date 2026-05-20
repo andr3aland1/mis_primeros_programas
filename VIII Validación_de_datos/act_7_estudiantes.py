@@ -5,25 +5,33 @@
 • Año de nacimiento (Debe abarcar un rango desde [Año actual-100; Año Actual]
 Por último el programa debe mostrar un resumen de los datos ingresados. """
 
+import os
+
 usuario = input("Ingrese el nombre se usuario: ")
 
 while len(usuario) <= 6:
     usuario = input("El nommbre de usuario debe tener más de 6 caracteres.Vuelva a intentarlo:")
+    input("Presione ENTER para continuar")
+    os.system('cls')
 
 primer_contrasenia = input("Ingrese la contraseña: ")
 
 while (len(primer_contrasenia) <= 8 ) and primer_contrasenia.isdigit() or primer_contrasenia.isalpha():
     primer_contrasenia = input("La contraseña debe tener más de 8 caracteres e incluir números y letras: ")
-
+    input("Presione ENTER para continuar")
+    os.system('cls')
 segunda_contrasenia = input("Vuelva a ingresar la constraseña: ")
 
 while primer_contrasenia != segunda_contrasenia:
     segunda_contrasenia = input("Las contraseñas deben coincidir: ")
-
+    input("Presione ENTER para continuar")
+    os.system('cls')
 anio_nacimiento = input("Ingrese su año de nacimiento: ") 
 
 while (not anio_nacimiento.isdigit()) or (int(anio_nacimiento) < 1926 or int(anio_nacimiento) > 2026):
-    anio_nacimiento = input("Ingresee un año valido: ")
+    anio_nacimiento = input("Ingrese un año valido: ")
+    input("Presione ENTER para continuar")
+    os.system('cls')
 
 print("Guarde sus datos de usuario y no los comparta:")
 print(f"Usuario: {usuario}\nContraseña{primer_contrasenia}\nAño nacimiento:{anio_nacimiento}")
