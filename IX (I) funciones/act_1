@@ -12,13 +12,15 @@ print(f"La suma es: {resultado}")
 
 
 
-def suma_cifras(num):
-    sumatoria = 0
-    sumatoria += num % 10
-    for i in range(1,9):
-        sumatoria+=(num%10 ** (i+1)) // 10**i
-    sumatoria += num // 1000000000
-    return sumatoria
-numero = int(input"Ingrese un numero de diez cifras:" )
-resultado = suma_cifras(numero)
-print(f"La suma es: {resultado}")
+# def suma_cifras(num):
+#     sumatoria = 0
+#     sumatoria += num % 10
+#     for i in range(1,9):
+#         sumatoria+=(num%10 ** (i+1)) // 10**i
+#     sumatoria += num // 1000000000
+#     return sumatoria
+# numero = int(input"Ingrese un numero de diez cifras:" )
+# resultado = suma_cifras(numero)
+# print(f"La suma es: {resultado}")
+
+# para comentar todo ctrl k luego ctrl c y para quitar comentario ctrl k luego ctrl u
