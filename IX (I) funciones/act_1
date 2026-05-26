@@ -1,0 +1,24 @@
+# 1234 
+
+def suma_cifras(num1):
+    cifra_0 = num % 10
+    cifra_1 = (num % 100)//10
+    cifra_2 = (num % 1000) // 100
+    cifra_3 = num // 1000
+    return cifra_0 + cifras_1 + cifras_2 + cifra_3
+numero = int(input("Ingrese un número de cuatro cifras: "))
+resultado = suma_cifras(numero)
+print(f"La suma es: {resultado}")
+
+
+
+def suma_cifras(num):
+    sumatoria = 0
+    sumatoria += num % 10
+    for i in range(1,9):
+        sumatoria+=(num%10 ** (i+1)) // 10**i
+    sumatoria += num // 1000000000
+    return sumatoria
+numero = int(input"Ingrese un numero de diez cifras:" )
+resultado = suma_cifras(numero)
+print(f"La suma es: {resultado}")

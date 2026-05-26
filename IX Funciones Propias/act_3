@@ -1,0 +1,7 @@
+def letras (cadena):
+    palabra = len(cadena)
+    return palabra
+
+nombre = input("Ingrese su nombre: ")
+r = letras(nombre)
+print(f"Su nombre tiene {r} letras.")

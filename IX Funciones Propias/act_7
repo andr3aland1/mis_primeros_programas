@@ -1,0 +1,17 @@
+def comparar(nombre1, nombre2):
+    nom1 = len(nombre1)
+    nom2 = len(nombre2)
+    if nom1 > nom2:
+        r = True
+    elif nom1 < nom2:
+        r = False
+    else:
+        r = "Ambos nombres son iguales"
+    return r
+
+nombre1 = input("Ingrese un nombre: ")
+nombre2 = input("Ingrese otro nombre: ")
+
+r = comparar(nombre1,nombre2)
+
+print(f"El nombre uno tienen la misma cantidad de letras: {r} ")
