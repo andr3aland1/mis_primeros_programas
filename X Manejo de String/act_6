@@ -1,0 +1,18 @@
+no_tiene_enie = True
+palabra = input("Ingrse una palabra con ñ: ") 
+while(no_tiene_enie)
+    for l in palabra:
+        if l == "ñ":
+            no_tiene_enie = False
+    if no_tiene_enie:
+        palabra = input("ERROR. Ingrese una palabra: ")
+
+for letra in palabra:
+    if letra == 'Ñ'
+        palabra_aux += 'N'
+    else: 
+        palabra_aux += letra
+palabra = palabra_aux
+
+print (f"La palabra {palabra.upper} tiene {len(palabra)} letras")
+
