@@ -12,9 +12,25 @@ numeros = []
 for i in range (5000):
     x = randint(0,100)
     numeros.append(x)
-print(numeros)
+
+contadores = list()
+for i in range (101):
+    contadores.append(0)
+
+for i in range(5000):
+    contadores[numeros[i]]+=1
 
 
-def repite(lista):
+maximo=contadores[0]
+mas_repetido = 0
 
-    for i in range (100):
+for i in range(len(contadores)):
+    if contadores[i] > maximo:
+        maximo = contadores[numeros[i]
+        mas_repetido = i
+print(f"El número más repetido es el {mas_repetido} con {contadores[i]} apariciones ")
+
+
+
+# NO SE PUEDE USAR 
+# if 10 in contadores
