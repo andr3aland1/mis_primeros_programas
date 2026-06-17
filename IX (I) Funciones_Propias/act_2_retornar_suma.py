@@ -3,6 +3,7 @@ El programa debe seguir mostrando el resultado en pantalla.
 """
 
 def suma(a,b):
+    """La función recibe dos números como parámetros y retorna la suma de ambos."""
     c = a + b
     return (c)
 

@@ -3,6 +3,7 @@ Invoca a la función con dos números leídos desde teclado.
 """
 
 def suma(a,b):
+    """La función recibe dos números como parámetros y muestra por pantalla la suma de ambos."""
     c = a + b
     print(c)
 
