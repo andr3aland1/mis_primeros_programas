@@ -1,5 +1,5 @@
 """Crea una función que reciba dos string como parámetro (nombre1 y nombre2), y retorne True si nombre1 tiene más letras 
-que nombre2, o False en caso contrario. nom1=input("Ingrese Nombre 1 ")
+que nombre2, o False en caso contrario.
 """
 
 def comparar(nombre1, nombre2):
@@ -10,7 +10,7 @@ def comparar(nombre1, nombre2):
     nom2 = len(nombre2)
     if nom1 > nom2:
         r = True
-    elif nom1 <= nom2:
+    else:
         r = False
     return r
 
