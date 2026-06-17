@@ -1,0 +1,15 @@
+"""Crea una función que reciba dos números como parámetro, y muestre en pantalla la suma aritmética de ambos. 
+Invoca a la función con dos números leídos desde teclado. 
+"""
+
+def suma(a,b):
+    c = a + b
+    print(c)
+
+def main(): 
+    num1 = int(input("Ingrese un número: "))
+    num2 = int(input("Ingrese un número: "))
+
+    res = suma(num1, num2)
+
+main()
