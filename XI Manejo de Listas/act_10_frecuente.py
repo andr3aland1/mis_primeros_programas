@@ -8,6 +8,36 @@ randint() Ejemplo: x=randint(-50, 50) almacena en x un número al azar entre -50
 from random import *
 
 numeros = []
+for i in range (5000):
+    numeros.append(randint(0,100))
+
+
+def mayor_repetido(lista):
+
+    lista_aux = []
+
+    for i in range (101):
+        lista_aux.append(0)        
+
+    for i in range (5000):
+        lista_aux[numeros[i]]+=1
+
+
+
+
+return     
+
+
+
+
+    
+
+
+
+"""
+
+numeros = []
+
 
 for i in range (5000):
     x = randint(0,100)
@@ -26,11 +56,14 @@ mas_repetido = 0
 
 for i in range(len(contadores)):
     if contadores[i] > maximo:
-        maximo = contadores[numeros[i]
+        maximo = contadores[numeros[i]]
         mas_repetido = i
-print(f"El número más repetido es el {mas_repetido} con {contadores[i]} apariciones ")
+print(f"El número más repetido es el {mas_repetido} con {contadores[i]} apariciones ") 
+
+"""
 
 
 
-# NO SE PUEDE USAR 
-# if 10 in contadores
+
+
+# NO SE PUEDE USAR  if 10 in contadores
