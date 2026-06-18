@@ -4,8 +4,8 @@ Debe retornar el porcentaje de aprobación."""
 from mis_funciones import porcentaje_aprobacion 
 
 def main():
-    alumnos = int(input("Ingrese la cantidad de estudiantes: "))
+    examenes = int(input("Ingrese la cantidad de examenes: "))
     aprobados = int(input("Ingrese la cantidad de aprobados: "))
-    porcentaje = porcentaje_aprobacion(alumnos,aprobados) 
+    porcentaje = porcentaje_aprobacion(examenes,aprobados) 
     print("El porcentaje de aprobados es de: ", porcentaje, "%")
 main()
