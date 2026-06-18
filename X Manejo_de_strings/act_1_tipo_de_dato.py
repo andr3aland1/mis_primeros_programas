@@ -34,8 +34,8 @@ main()
 Respuestas:
 a. Las cadenas de caracteres de python son str es decir string.
 b. En Python podemos escribir los strings con comillas simples o dobles. Esto nos permite a su vez escribir comillas dentro del 
-string sin escaparlas, siempre que usemos comillas de diferentes tipos ejemplo: "Hola 'mundo'!". Caso contrario, es decir, al
-usar el mismo tipo de comillas deberiamos espacarlas ejemplo: "Hola \"mundo\"" de esta manera no va a generar errores.
+string sin escaparlas; siempre que usemos comillas de diferentes tipos ejemplo: "Hola 'mundo'!". Caso contrario, es decir, al
+usar el mismo tipo de comillas deberiamos espacarlas, ejemplo: "Hola \"mundo\"" de esta manera no va a generar errores.
 c. No es lo mismo, debido a que si escribimos 100 sin comillas lo va a tomar como número entero (int), mientras que si 
 usamos comillas lo va a entender como un str, es decir una cadena de caracteres en este caso texto. 
 """
