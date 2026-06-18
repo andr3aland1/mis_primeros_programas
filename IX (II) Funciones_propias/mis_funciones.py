@@ -35,18 +35,27 @@ def sueldo(cantidad,valor):
 
 # Actividad 3
 
-"""Un millonario excéntrico tenía tres hijos: Carlos, José y Marta. Al morir dejó el siguiente legado: 
-A José le dejó 4/3 de lo que le dejó a Carlos. A Carlos le dejó 1/3 de su fortuna. 
-A Marta le dejó la mitad de lo que le dejó a José. Diseña una función que calcule y devuelva la suma a 
-repartir y la herencia que recibió cada hijo.
-"""
+
 def herencia(cantidad):
+    """calcula y devuelve la suma a repartir y la herencia que recibió cada hijo."""
     carlos = cantidad * 1/3
     jose = carlos * 4/3
     marta = jose/2
     fortuna = carlos + jose + marta
     return fortuna, carlos, jose, marta
 
+# Actividad 4
+
+
+def corregir_tiempo(horas, minutos, segundos):
+
+    minutos = minutos + segundos // 60
+    segundos = segundos % 60
+
+    horas = horas + minutos // 60
+    minutos = minutos % 60
+
+    return horas, minutos, segundos
 
 
     
