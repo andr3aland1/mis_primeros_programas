@@ -67,6 +67,12 @@ def precio_final(costo):
     final = costo+vendedor+iva
     return round(final,2)
 
+# Actividad 6
 
+def porcentaje_aprobacion(examenes, aprobados):
+    """Recibe la cantidad de personas que participaron de un examen y la cantidad de aprobación. 
+    Retorna el porcentaje de aprobación."""
+    porcentaje = (aprobados/examenes)*100 
+    return porcentaje
     
     
