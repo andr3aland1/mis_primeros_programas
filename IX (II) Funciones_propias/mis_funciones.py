@@ -57,6 +57,16 @@ def corregir_tiempo(horas, minutos, segundos):
 
     return horas, minutos, segundos
 
+# Actividad 5
+
+def precio_final(costo):
+    """calcula  precio final usando el costo, el porcentaje de beneficios (8%) y el I.V.A. 
+    Retorna el resultado con dos decimales"""
+    vendedor = costo*0.08
+    iva = costo*0.21
+    final = costo+vendedor+iva
+    return round(final,2)
+
 
     
     
